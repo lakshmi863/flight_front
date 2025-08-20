@@ -40,7 +40,7 @@ const Chat = () => {
     fetchMessages();
     const interval = setInterval(fetchMessages, 3000);
     return () => clearInterval(interval);
-  }, [fetchMessages]); //  Now dependency is satisfied
+  }, [fetchMessages]); //  Now dependenc is satisfied
 
   return (
     <div className="p-6 max-w-xl mx-auto mt-12">

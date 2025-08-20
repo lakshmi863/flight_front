@@ -10,7 +10,7 @@ const Signup = () => {
     e.preventDefault();
 
     try {
-      // Correct API Endpoint
+      // Correct API Endpoints
       const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}api/auth/signup`, userData);
 
       if (response.status === 201) {

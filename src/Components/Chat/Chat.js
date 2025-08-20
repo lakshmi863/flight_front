@@ -24,7 +24,7 @@ const Chat = () => {
 
   try {
     await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/chat/send`, 
-      { message: newMessage, time: currentTime }, //  Send both messages and time
+      { message: newMessage, time: currentTime }, //  Send both message and time
       {
         headers: { Authorization: `Bearer ${token}` }
       }

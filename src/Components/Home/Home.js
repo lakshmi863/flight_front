@@ -64,7 +64,7 @@ const Home = () => {
     const submissionData = { ...formData, directFlights: formData.directFlights ? 1 : 0 };
 
     // Send API request to backend
-    const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}api/form/submit`, submissionData, {
+    const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/form/submit`, submissionData, {
       headers: { Authorization: `Bearer ${token}` },
     });
 

@@ -11,7 +11,7 @@ const Signup = () => {
 
     try {
       // Correct API Endpoints
-      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}api/auth/signup`, userData);
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/auth/signup`, userData);
 
       if (response.status === 201) {
         alert('Signup successful! Please login.');

@@ -23,7 +23,7 @@ const Chat = () => {
   const currentTime = new Date().toISOString(); // ✅ Get current time
 
   try {
-    await axios.post(`${process.env.REACT_APP_BACKEND_URL}api/chat/send`, 
+    await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/chat/send`, 
       { message: newMessage, time: currentTime }, //  Send both messages and time
       {
         headers: { Authorization: `Bearer ${token}` }

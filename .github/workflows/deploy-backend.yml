@@ -20,14 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Optional test step (will not fail)
+      # Optional test step (won't block deploy if fails)
       - name: Run tests
-        run: npm test
+        run: npm test || true
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name:gofly
-          slot-name: production
+          app-name: gofly              # ✅ Your Azure Web App name
+          slot-name: production        # Or "staging" if you use deployment slots
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .

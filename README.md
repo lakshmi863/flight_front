@@ -8,7 +8,8 @@ Home page View
 
 <img width="1100" height="1361" alt="flight-booking-system-spm0 onrender com_" src="https://github.com/user-attachments/assets/6e8a1820-7eb6-4ae4-8a64-f2a7065d364e" />
 
-Home page description
+Home page description:
+
 When a new user visits the FlyGo Booking website, they are first prompted to sign up or log in. After successful authentication, they are redirected to the Home Page, which acts as the main entry point for flight booking.
 
 On the Home Page, users will see:

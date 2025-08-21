@@ -5,29 +5,37 @@ import axios from 'axios';
 const Login = () => {
   const [credentials, setCredentials] = useState({ email: '', password: '' });
   const navigate = useNavigate();
+const handleLogin = async (e) => {
+  e.preventDefault();
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
+  try {
+    const response = await axios.post(
+      `${process.env.REACT_APP_BACKEND_URL}/api/auth/login`,
+      credentials
+    );
 
-    try {
-      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/auth/login`, credentials);
-
-      if (response.status === 200) {
-        localStorage.setItem('token', response.data.token);
-        alert('Login successful!');
-        navigate('/');
-      } else {
-        alert('Login failed. Please try again.');
-      }
-    } catch (error) {
-      console.error('Login error:', error);
-      if (error.response && error.response.data && error.response.data.message) {
-        alert(error.response.data.message);
-      } else {
-        alert('Login failed. Please try again.');
-      }
+    if (response.status === 200) {
+      localStorage.setItem("token", response.data.token);
+      alert("Login successful!");
+      navigate("/");
+    } else {
+      alert("Login failed. Please try again.");
     }
-  };
+  } catch (error) {
+    console.error("Full login error object:", error);
+
+    if (error.response) {
+      console.error("Server responded with:", error.response.status, error.response.data);
+      alert(error.response.data.message || "Login failed. Please try again.");
+    } else if (error.request) {
+      console.error("No response received:", error.request);
+      alert("No response from server. Please check backend.");
+    } else {
+      console.error("Error setting up request:", error.message);
+      alert(error.message);
+    }
+  }
+};
 
   return (
     <div className="flex justify-center items-center min-h-screen">

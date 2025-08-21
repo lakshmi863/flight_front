@@ -65,7 +65,9 @@ User Actions
 Apply filters dynamically.
 
 Select a flight and proceed to booking/payment page.
+Details:
 
+<img width="1900" height="2288" alt="flight-booking-system-spm0 onrender com_review" src="https://github.com/user-attachments/assets/0f51b12a-44e8-4e56-8948-495004be2482" />
 
 
 ## Available Scripts

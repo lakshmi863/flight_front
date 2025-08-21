@@ -8,6 +8,64 @@ Home page View
 
 <img width="1100" height="1361" alt="flight-booking-system-spm0 onrender com_" src="https://github.com/user-attachments/assets/6e8a1820-7eb6-4ae4-8a64-f2a7065d364e" />
 
+Home page description
+When a new user visits the FlyGo Booking website, they are first prompted to sign up or log in. After successful authentication, they are redirected to the Home Page, which acts as the main entry point for flight booking.
+
+On the Home Page, users will see:
+
+Navigation Bar (React Navigation)
+
+Links to Home, My Trips, Bookings, Profile, and Logout.
+
+Flight Search Form
+
+Input fields for:
+
+Departure city/airport
+
+Destination city/airport
+
+Travel date (and return date for round trip)
+
+Number of passengers
+
+Travel class (Economy, Business, First)
+
+Once the user submits the form, the data is sent directly to the backend (Express + SQLite DB).
+
+The backend fetches available flight details along with trip planning information.
+
+Trip Planning Details
+
+Estimated travel time (in hours/minutes).
+
+Possible layovers (if any).
+
+Distance covered between source and destination.
+
+Available Flight Results with Filters
+
+After applying filters (price, duration, airlines, departure time, etc.), users can view a list of flights.
+
+Each flight card displays:
+
+Airline name & logo
+
+Departure & arrival times
+
+Duration of travel
+
+Ticket price
+
+Book Now button
+
+User Actions
+
+Apply filters dynamically.
+
+Select a flight and proceed to booking/payment page.
+
+
 
 ## Available Scripts
 

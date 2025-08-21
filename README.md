@@ -69,6 +69,10 @@ Details:
 
 <img width="1900" height="2288" alt="flight-booking-system-spm0 onrender com_review" src="https://github.com/user-attachments/assets/0f51b12a-44e8-4e56-8948-495004be2482" />
 
+Business page:
+
+<img width="1800" height="2515" alt="flight-booking-system-spm0 onrender com_Business" src="https://github.com/user-attachments/assets/56b8d18b-5810-424d-87a9-57d4e7754d0e" />
+
 
 ## Available Scripts
 

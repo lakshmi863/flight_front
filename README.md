@@ -6,7 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Home page View
 
-<img width="1100" height="1361" alt="flight-booking-system-spm0 onrender com_" src="https://github.com/user-attachments/assets/6e8a1820-7eb6-4ae4-8a64-f2a7065d364e" />
+<img width="1700" height="5561" alt="flight-booking-system-spm0 onrender com_" src="https://github.com/user-attachments/assets/4ade04ad-4c96-4e30-ac90-39e2586ba2fc" />
+
 
 Home page description:
 

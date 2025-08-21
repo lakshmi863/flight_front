@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <img width="536" height="824" alt="FlyGo project" src="https://github.com/user-attachments/assets/5d31d38b-7b90-4a85-9d55-4065bfc495cc" />
 
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/b100f500-a511-461e-ac67-bde959d59ecb" />
 
 ## Available Scripts
 

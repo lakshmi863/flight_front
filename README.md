@@ -2,7 +2,7 @@
 this is my project link( https://flight-booking-system-spm0.onrender.com )
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1536" height="1024" alt="FlyGo project" src="https://github.com/user-attachments/assets/5d31d38b-7b90-4a85-9d55-4065bfc495cc" />
+<img width="536" height="824" alt="FlyGo project" src="https://github.com/user-attachments/assets/5d31d38b-7b90-4a85-9d55-4065bfc495cc" />
 
 
 ## Available Scripts
